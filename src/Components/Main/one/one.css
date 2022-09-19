@@ -1,0 +1,77 @@
+.oneContainer {
+  display: flex;
+  align-items: center;
+  width: 76%;
+  gap: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.oneLeft {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.oneleftTop {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.2rem;
+  width: 21rem;
+  border-radius: 1rem;
+  background-color: rgb(86, 87, 88);
+
+}
+.oneleftTop p:nth-child(1){
+  background: white;
+  padding: 0.3rem;
+  border-radius: 2rem;
+  width: 6.5rem;
+  text-align: center;
+  color: gray;
+}
+.oneleftTop p:nth-child(2){
+  background-color: transparent;
+}
+.oneleftTop p {
+  font-size: 0.9rem;
+}
+.oneleftLast {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.oneleftLast h1 {
+  width: 29rem;
+  font-size: 3.1rem;
+  line-height: 3rem;
+  font-weight: 500;
+
+}
+.oneleftLast p {
+  font-size: 0.9rem;
+}
+.oneLeft button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(6, 101, 226);
+  padding: 0.2rem;
+  width: 12rem;
+  font-size: 1.15rem;
+  border-radius: 2rem;
+}
+.oneLeft button span {
+  font-size: 0.8rem;
+  color: rgb(6, 101, 226);
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 2rem;
+  padding-top: 0.7rem;
+  background-color: white;
+}
+.oneRight img {
+  width: 32rem;
+}

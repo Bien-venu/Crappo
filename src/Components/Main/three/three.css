@@ -1,0 +1,98 @@
+.three {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.94);
+  padding-top: 18rem;
+}
+.three-main {
+  color: black;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.three-head h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.three-card {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 23rem;
+  padding: 2.3rem;
+  border-radius: 1rem;
+  background: white;
+}
+.three h1,
+.three p {
+  color: black;
+}
+/* .active {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  gap: 2.5rem;
+  width: 23rem;
+  padding: 2.3rem;
+  border-radius: 1rem;
+  background-color: rgb(36, 6, 94);
+} */
+.card img {
+  width: 4.5rem;
+  margin: auto;
+}
+.card p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.card h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: auto;
+}
+.card .hspan {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: gray;
+}
+.card button span:nth-child(1) {
+  display: none;
+}
+.card button span:nth-child(2) {
+  color: rgb(8, 8, 158);
+}
+.card button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 4rem;
+  padding: 1.1rem;
+  padding-left: 1.7rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: auto;
+  border: 1px solid gray;
+  background-color: transparent;
+}
+
+/* .button-active {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 12rem;
+  padding: 1.1rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: auto;
+} */

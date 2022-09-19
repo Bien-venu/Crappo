@@ -1,0 +1,35 @@
+.topAll {
+  margin-top: 1rem;
+}
+.allTop {
+  display: flex;
+  align-items: center;
+  width: 76%;
+  margin-left: 11.5rem;
+  gap: 28rem;
+  overflow: hidden;
+}
+img {
+  width: 9.5rem;
+}
+.topLink {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.firstLink ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.lastLink ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.topLink button {
+  padding: 0.4rem;
+  width: 6.5rem;
+  font-size: 1.15rem;
+  border-radius: 2rem;
+}
